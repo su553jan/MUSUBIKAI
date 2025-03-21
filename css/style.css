@@ -112,8 +112,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo img {
+  width: 180px; /* Adjust based on your logo size */
+  height: auto; /* Maintain proportions */
   padding: 0;
   margin: 0;
+  margin-top: -14px; /* Move the logo up */
 }
 
 @media (max-width: 768px) {
@@ -121,7 +124,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 26px;
   }
   #header #logo img {
-    max-height: 40px;
+    width: 160px; /* Adjust based on your logo size */
+    max-height: auto;
+    margin-top: -17px; /* Move the logo up */
   }
 }
 
